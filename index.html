@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <h2 class="title is-5">
+    <a href="{{ post.url }}" class="has-text-link">
+      {{ post.title }}
+    </a>
+  </h2>
+
+  <h3 class="subtitle is-5">{{ post.date | date: "%F" }}</h3>
+
+  {{ post.content }}
+
+  <hr>
+{% endfor %}
