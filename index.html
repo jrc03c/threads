@@ -15,3 +15,33 @@ layout: default
 
   <hr>
 {% endfor %}
+
+<div class="level is-mobile">
+  <div class="level-left">
+    <div class="level-item">
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">
+          <span class="icon">
+            <i class="fa fa-arrow-left"></i>
+          </span>
+
+          <span>Previous</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="level-right">
+    <div class="level-item">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">
+          <span>Next</span>
+
+          <span class="icon">
+            <i class="fa fa-arrow-right"></i>
+          </span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
