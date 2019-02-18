@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Hello, world!"
-permalink: /hello-world
 ---
 
 This text goes before the image.
