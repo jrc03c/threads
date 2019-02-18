@@ -2,3 +2,4 @@ plugins: [jekyll-paginate]
 paginate: 1
 paginate_path: /page:num/
 permalink: /:title
+name: Threads
