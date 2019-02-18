@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Introductions"
-permalink: /introductions
 ---
 
 Meet Threads, everyone!
