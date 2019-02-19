@@ -16,6 +16,7 @@ layout: default
   <hr>
 {% endfor %}
 
+{% if paginator.next_page or paginator.previous_page %}
 <div class="level is-mobile">
   <div class="level-left">
     <div class="level-item">
@@ -45,3 +46,4 @@ layout: default
     </div>
   </div>
 </div>
+{% endif %}
