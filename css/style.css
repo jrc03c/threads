@@ -12,6 +12,7 @@ p {
 
 img {
   margin: 0;
+  border: 0.1rem solid black;
 }
 
 .title, b {
