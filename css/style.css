@@ -1,5 +1,9 @@
 body, html, * {
-  font-family: monospace;
+  font-family: "Life Savers", monospace;
+}
+
+html {
+  font-size: 1.5em;
 }
 
 p {
@@ -8,4 +12,8 @@ p {
 
 img {
   margin: 0;
+}
+
+.title, b {
+  font-weight: 700;
 }
