@@ -17,3 +17,7 @@ img {
 .title, b {
   font-weight: 700;
 }
+
+.is-size-8 {
+  font-size: 0.5rem;
+}
