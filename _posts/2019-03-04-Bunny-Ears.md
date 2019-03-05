@@ -3,4 +3,4 @@ layout: post
 title: "Bunny Ears"
 ---
 
-![](/images/Strip2.png)
+![](/images/BunnyEars.png)
